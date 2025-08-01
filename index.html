@@ -172,7 +172,67 @@
        </div>
 </section>
 
+<section id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 footerLeft">
+        <h3>S.S.S Travails</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque placeat iste necessitatibus hic voluptatibus atque quis, sequi temporibus! Animi omnis corrupti odio libero ducimus rerum nulla cupiditate est accusamus illo quisquam vel neque error, repellat aut at! Culpa, tenetur quis, ad maiores et, assumenda animi cupiditate deleniti aspernatur eum doloremque.</p>
+        <ul>
+              <li><a href="#intagram"><i class="bi bi-instagram"></i></a></li>
+              <li><a href="#facebook"><i class="bi bi-facebook"></i></a></li>
+              <li><a href="#youtube"><i class="bi bi-youtube"></i></a></li>
+              <li><a href="#twitter"><i class="bi bi-twitter"></i></a></li>
+            </ul>
+      </div>
+      <div class="col-md-6">
+            <div class="row footerNav">
+              <div class="col-sm-4">
+                <h3>About</h3>
+                <ul>
+                  <li><a>History</a></li>
+                  <li><a>Our Team</a></li>
+                  <li><a>Brand Guidelines</a></li>
+                  <li><a>Terms & Condition</a></li>
+                  <li><a>Privacy Policy</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <h3>Services</h3>
+                <ul>
+                  <li><a>How to Order</a></li>
+                  <li><a>Our Product</a></li>
+                  <li><a>Order Status</a></li>
+                  <li><a>Promo</a></li>
+                  <li><a>Payment Method</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <h3>Other</h3>
+                <ul>
+                  <li><a>Contact Us</a></li>
+                  <li><a>Help</a></li>
+                  <li><a>Privacy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+</section>
+
 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+ <script type="text/javascript">
+  var nav = "document.queryselector('nav')"
+
+  window.addEventListener('scroll', function() {
+    if(window.pageYOffset > 100) {
+      nav.classList.add('bg-white', 'shadow');
+    } else {
+      nav.classList.remove('bg-white', 'shadow');
+    }
+  });
+ </script>
 </body>
 </html>

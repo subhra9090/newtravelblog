@@ -258,3 +258,63 @@ margin-top: 10px;
 .testimonials p{
     font-size: 20px; 
 }
+#footer{    
+    background: url("../images/artage_bg_style_03.png") no-repeat bottom right;
+    background-color: #7f7770;
+}
+
+.footerLeft{
+    padding: 50px 10px;
+}
+
+.footerLeft h3{
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 24px;
+}
+.footerLeft p{
+    padding: 10px 10px;
+    color: #fff;
+}
+.footerLeft ul{
+    display: flex;
+    padding: 0 !important;
+}
+
+.footerLeft ul li a{
+    padding: 20px 30px 20px 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.footerLeft ul li a:hover{
+    color: #dbaa6d;
+}
+.footerLeft ul li a i{
+    font-size: 24px;
+}
+.footerNav {
+    padding: 50px 10px;
+}
+.footerNav h3{
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.footerNav ul{
+    padding: 0 !important;
+}
+
+.footerNav .col-sm-4 ul li a{
+    padding: 20px 30px 20px 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+
+}
+.footerNav .col-sm-4 ul li a:hover{
+    color: #dbaa6d;
+    padding-left: 15px;
+    font-weight: 600;
+}
